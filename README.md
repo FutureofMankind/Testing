@@ -1,5 +1,9 @@
 # Домашнее задание к занятию "4.Организация тестирования"
 
+![CI](https://github.com/RomanMenshikov92/new-repo-ahj-homeworks-organization-testing/actions/workflows/web.yml/badge.svg)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/x8c04kiq58nv9l8b?svg=true)](https://ci.appveyor.com/project/RomanMenshikov92/new-repo-ahj-homeworks-organization-testing)
+
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ можно использовать любой менеджер пакетов
