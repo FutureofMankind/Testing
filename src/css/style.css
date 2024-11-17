@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    color: #f0f2f3;
+    border: #697278;
+    background: #38444c;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* отключает синий фон на телефоне при клике */
+}
+
+#hw-4 {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.imgs-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    max-width: 350px;
+    margin: auto;
+}
+
+.imgs-cards img {
+    min-width: 30px;
+    max-width: 55px;
+    margin: 1px;
+    border-radius: 6px;
+    border: 1px solid #808080;
+    background-color: #38444c;
+    opacity: 1;
+}
+
+table, tr, td, th {
+    border: 1px solid #808080; 
+}
+
+td, th {
+    padding: 3px 5px;
+    text-align: left;
+}
+
+table {
+    max-width: 350px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 1px;
+    color: #38444c;
+    background-color: #f0f2f3;
+    border-radius: 6px;
+}
+
+.example-header {
+    margin: auto;
+}
+
+.validator-form {
+    max-width: 350px;
+    margin: 5px auto;
+}
+
+.container-label {
+    position: relative;
+}
+
+.validator-card {
+    width: 100%;
+    padding: 8px 100px 8px 8px;
+
+    border: 1px;
+    border-radius: 6px;
+    
+    box-sizing: border-box;
+}
+
+.validator-card:focus {
+    outline: 1px solid #0c1e3b;
+    box-shadow: 0px 0px 5px 2px #0c1e3b;
+}
+
+.validator-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85px;
+    max-height: 100%;
+
+    padding: 6px;
+
+    color: #38444c;
+    text-align: left;
+    vertical-align: middle;
+
+    border-left: 1px solid #38444c;
+    background-color: #f0f2f3;
+    border-radius: 0 6px 6px 0;
+
+    pointer-events: none;
+}
+
+.validate-btn {
+    width: 100%;
+    margin: 8px auto;
+    padding: 8px;
+
+    border: 1px;
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.validate-btn:hover {
+    box-shadow: 0px 0px 5px 2px #0c1e3b;
+}
+
+.validate-btn:active {
+    box-shadow: inset 0px 0px 3px 0px #0c1e3b;
+}
